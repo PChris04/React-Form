@@ -36,3 +36,130 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styling the entire form container */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for all form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Terms and Conditions text styling */
+label[for="acceptedTerms"] {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+
+
+button:hover {
+  background-color: #f2f2f2; /* Button hover effect */
+}
+
+/* Error message styling */
+div {
+  color: black;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+/* Required text */
+label::after {
+  content: "Required";
+  color: red;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* Styling for checkbox label */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Styling the entire form container */
+.form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  max-width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual field container */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: 55px;
+}
+
+/* Checkbox */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+/* Button */
+button {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+}
+
