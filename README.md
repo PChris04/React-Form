@@ -3,8 +3,7 @@
 This project is a simple and responsive registration form built using React and Formik. The form includes various input fields like name, email, password, password confirmation, and a checkbox for accepting terms and conditions. The form validates user inputs and provides instant feedback for any errors.
 
 ## Demo
-
-![Screenshot 2024-09-10 105948](https://github.com/user-attachments/assets/949ad64e-e84c-459a-aefa-63ce5915aef7)
+![Screenshot 2024-09-10 122004](https://github.com/user-attachments/assets/ab4245d1-5e1b-40dd-b04f-9af5e08b9bce)
 
 ## Features
 
